@@ -1,0 +1,24 @@
+
+.delBtn{
+    padding: 10px 15px;
+    color: white;
+    letter-spacing: 2px;
+    width: auto;    
+    cursor: pointer;
+    background: red;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+.title{
+    width: 80%;
+    padding: 10px 15px;
+    text-align: center;
+    background: white;
+    
+}
+.brand{
+    color: blueviolet;
+}

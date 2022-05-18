@@ -1,0 +1,57 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.card{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 2px gray;
+  margin: 10px;
+  backdrop-filter: blur(2px);
+  background: rgba(240, 240, 240,0.5)
+}
+.activeItems{
+  display: flex;
+  width: 490px;
+  flex-wrap: wrap;
+  border: 1px solid #666;
+  background: linear-gradient(78deg,gray,blueviolet);
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 70px;
+  position: relative;
+}
+h2{
+  color: blueviolet;
+}
+.model{
+  color: #222;
+  margin-top: 5px;
+}
+.type{
+  color: #666;
+  margin-top: 5px;
+}
+.price{
+  color: red;
+  margin-top: 5px;
+}
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  background: linear-gradient(45deg,blueviolet,rgb(185, 9, 138));
+}
+.count{
+  color: white;
+  position: absolute  ;
+  bottom: 0;
+}

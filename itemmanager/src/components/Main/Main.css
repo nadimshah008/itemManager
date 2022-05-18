@@ -1,0 +1,11 @@
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    background: linear-gradient(45deg,blueviolet,rgb(185, 9, 138));
+}
+.count{
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
